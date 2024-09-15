@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background-image: url(https://img.freepik.com/premium-vector/cat-box-page-file-found-connection-error-flat-outline-vector-white_705714-496.jpg) !important;
+    background-size: 10rem;
+}
+
+img{
+    padding: 1rem;
+    width: 5vw;
+    border-radius: 3rem;
+
+
+}
+
+
+.navbar a{
+color: azure;
+}
+.navbar a:hover{
+    color: rgb(121, 192, 233);
+    }
+    
+
+.div-footer{
+    width: 20%;
+    height: 20%;
+    background-color: black;
+    padding: 3rem;
+    color: white;
+}
+
+.bg-color{
+    background-color: black;
+}
