@@ -9,20 +9,20 @@ body{
     background-size: 10rem;
 }
 
-img{
+.cat-bg{
     padding: 1rem;
     width: 5vw;
     border-radius: 3rem;
-
-
 }
 
 
 .navbar a{
 color: azure;
+padding: 1rem;
 }
 .navbar a:hover{
     color: rgb(121, 192, 233);
+    
     }
     
 
@@ -37,3 +37,10 @@ color: azure;
 .bg-color{
     background-color: black;
 }
+
+@media only screen and (max-width: 992px) {
+    .navbar {
+      flex-direction: column;
+
+    }
+  }

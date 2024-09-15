@@ -13,7 +13,7 @@ fetch(url)
     resCodes.map(i=>{
         let container=document.getElementById("container")
         let img =document.createElement(`img`)
-        img.setAttribute("class"," col-4")
+        img.setAttribute("class"," cat-bg col-sm-6 col-md-4 col-lg-4")
         url=`https://http.cat/${i}.jpg`
         img.src=url
         console.log(data);
